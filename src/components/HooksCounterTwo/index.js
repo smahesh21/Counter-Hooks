@@ -8,7 +8,8 @@ function HooksCounterTwo() {
   }
   return (
     <div>
-      Counter: {count}
+      <h2>Hooks with previous value</h2>
+      <p>Counter: {count}</p>
       <button
         type="button"
         onClick={() => setCount(prevState => prevState + 1)}
